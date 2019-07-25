@@ -10,6 +10,8 @@ import { BookstoreServiceProvider } from './components/bookstore-service-context
 
 import store from './store';
 
+import './bootstrap.min.css';
+
 const bookstoreService = new BookstoreService();
 
 ReactDOM.render(
